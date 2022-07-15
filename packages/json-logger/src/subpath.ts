@@ -1,5 +1,8 @@
 import { doNothing } from "./another-subpath.js";
 
-const logSomething = () => console.log("Something")
+const logSomething = () => {
+  doNothing();
+  console.log("Something")
+}
 
 export { logSomething }
