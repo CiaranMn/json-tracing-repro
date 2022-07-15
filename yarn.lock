@@ -1060,6 +1060,11 @@ js-yaml@^4.1.0:
   dependencies:
     argparse "^2.0.1"
 
+json-logger-test@0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/json-logger-test/-/json-logger-test-0.0.5.tgz#b9d9e62b11beb2ae56a9c0783f236de2ba998702"
+  integrity sha512-OSrI1AXLMoOeMcx/CJi20ArqAkpB5gt2x8wqQj1kO2IwHoSiFkJg79rn1zJm46tPTfl1w6VYJxMD3OaDOxC4pg==
+
 json-schema-traverse@^0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz#69f6a87d9513ab8bb8fe63bdb0979c448e684660"

@@ -3,7 +3,12 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from "next/link";
 
+import { useEffect } from "react"
+
+import { AnotherTestClass } from "json-logger-test";
+
 export default function Home() {
+  useEffect(() => { console.log(new AnotherTestClass() )}, [])
   return (
     <div className={styles.container}>
       <Link href="/sub-route">Here's a link</Link>

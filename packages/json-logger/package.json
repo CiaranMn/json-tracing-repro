@@ -1,7 +1,7 @@
 {
   "name": "json-logger-test",
   "description": "This is a test package. Don't use it.",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "license": "MIT",
   "type": "module",
   "exports": {
