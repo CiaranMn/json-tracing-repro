@@ -4,9 +4,9 @@
   "private": true,
   "workspaces": ["packages/json-logger", "site"],
   "scripts": {
-    "postinstall": "yarn workspace json-logger build",
+    "postinstall": "yarn workspace json-logger-test build",
     "dev": "yarn workspace site dev",
-    "build": "yarn workspace json-logger build && yarn workspace site build",
+    "build": "yarn workspace json-logger-test build && yarn workspace site build",
     "start": "yarn workspace site start"
   }
 }
