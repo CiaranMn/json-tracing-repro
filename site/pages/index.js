@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-import { createTest } from "json-logger/subpath";
+import { createTest } from "json-logger/react";
 
 createTest();
 

@@ -16,8 +16,8 @@
       "another-subpath": [
         "./dist/another-subpath.d.ts"
       ],
-      "subpath": [
-        "./dist/subpath.d.ts"
+      "react": [
+        "./dist/react.d.ts"
       ],
       "json": ["./dist/json.d.ts"]
     }
