@@ -1,3 +1,3 @@
-import { logJson as logFromSubpath } from "./index.js";
-export { logFromSubpath };
+const logSomething = () => console.log("Something");
+export { logSomething };
 //# sourceMappingURL=subpath.js.map

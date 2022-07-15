@@ -1,3 +1,5 @@
-import { logJson as logFromSubpath } from "./index.js";
+import { doNothing } from "./index.js";
 
-export { logFromSubpath }
+const logSomething = () => console.log("Something")
+
+export { logSomething }

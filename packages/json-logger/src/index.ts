@@ -1,3 +1,5 @@
-import testJson from "./test.json" assert { type: "json" };
+import { testJson } from "./json.js"
 
-export const logJson = () => console.log(testJson);
+console.log(testJson)
+
+export const doNothing = () => null;

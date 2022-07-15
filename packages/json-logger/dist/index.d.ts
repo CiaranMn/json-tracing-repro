@@ -1,1 +1,1 @@
-export declare const logJson: () => void;
+export declare const doNothing: () => null;

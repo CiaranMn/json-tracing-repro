@@ -1,3 +1,4 @@
-import testJson from "./test.json" assert { type: "json" };
-export const logJson = () => console.log(testJson);
+import { testJson } from "./json.js";
+console.log(testJson);
+export const doNothing = () => null;
 //# sourceMappingURL=index.js.map

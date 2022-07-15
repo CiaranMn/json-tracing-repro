@@ -1,2 +1,2 @@
-import { logJson as logFromSubpath } from "./index.js";
-export { logFromSubpath };
+declare const logSomething: () => void;
+export { logSomething };

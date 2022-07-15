@@ -2,9 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-import { logFromSubpath } from "json-logger/subpath";
+import { logSomething } from "json-logger/subpath";
 
-logFromSubpath();
+logSomething();
 
 export default function Home() {
   return (
