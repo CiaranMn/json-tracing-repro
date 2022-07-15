@@ -1,1 +1,1 @@
-export { logJson } from "./another-subpath"
+export { TestClass } from "./another-subpath"
