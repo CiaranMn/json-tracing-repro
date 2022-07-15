@@ -1,8 +1,8 @@
-import { doNothing } from "./another-subpath.js";
+import { logJson } from "./another-subpath.js";
 
 const logSomething = () => {
-  doNothing();
-  console.log("Something")
+  console.log("Logging json:")
+  logJson();
 }
 
 export { logSomething }

@@ -1,1 +1,1 @@
-{"version":3,"file":"subpath.js","sourceRoot":"","sources":["../src/subpath.ts"],"names":[],"mappings":"AAEA,MAAM,YAAY,GAAG,GAAG,EAAE,CAAC,OAAO,CAAC,GAAG,CAAC,WAAW,CAAC,CAAA;AAEnD,OAAO,EAAE,YAAY,EAAE,CAAA"}
+{"version":3,"file":"subpath.js","sourceRoot":"","sources":["../src/subpath.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,sBAAsB,CAAC;AAEjD,MAAM,YAAY,GAAG,GAAG,EAAE;IACxB,SAAS,EAAE,CAAC;IACZ,OAAO,CAAC,GAAG,CAAC,WAAW,CAAC,CAAA;AAC1B,CAAC,CAAA;AAED,OAAO,EAAE,YAAY,EAAE,CAAA"}
