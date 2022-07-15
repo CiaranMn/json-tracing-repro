@@ -6,7 +6,7 @@
   "exports": {
     ".": "/dist/index.js",
     "./another-subpath": "./dist/another-subpath.js",
-    "./subpath": "./dist/subpath.js",
+    "./react": "./dist/react.js",
     "./json": "./dist/json.js"
   },
   "types": "./dist/index.d.ts",
