@@ -4,18 +4,20 @@
   "license": "MIT",
   "type": "module",
   "exports": {
-    ".": "./dist/index.js",
-    "./subpath": "./dist/subpath.js"
+    "./another-subpath": "./dist/another-subpath.js",
+    "./subpath": "./dist/subpath.js",
+    "./json": "./dist/json.js"
   },
   "types": "./dist/index.d.ts",
   "typesVersions": {
     "*": {
-      ".": [
-        "./dist/index.d.ts"
+      "another-subpath": [
+        "./dist/another-subpath.d.ts"
       ],
       "subpath": [
         "./dist/subpath.d.ts"
-      ]
+      ],
+      "json": ["./dist/json.d.ts"]
     }
   },
   "devDependencies": {

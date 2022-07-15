@@ -1,4 +1,4 @@
-import { doNothing } from "./index.js";
+import { doNothing } from "./another-subpath.js";
 
 const logSomething = () => console.log("Something")
 
