@@ -1,3 +1,13 @@
 import { testJson } from "./json.js"
 
-export const logJson = () => console.log(testJson);
+export class TestClass {
+  name: string;
+
+  constructor() {
+    this.name = "Hello, world!"
+  }
+
+  logJson() {
+    console.log(testJson);
+  }
+}

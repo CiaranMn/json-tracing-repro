@@ -1,8 +1,9 @@
-import { logJson } from "./another-subpath.js";
+import { TestClass } from "./another-subpath.js";
 
-const logSomething = () => {
-  console.log("Logging json:")
-  logJson();
+const createTest = () => {
+  const foo = new TestClass();
+  console.log(foo.name)
+  foo.logJson();
 }
 
-export { logSomething }
+export { createTest }
